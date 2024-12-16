@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Théo LAGUE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body class="bg-blue-50 text-gray-900 font-sans">
+
+<!-- Barre de navigation -->
+<nav class="fixed top-0 left-0 w-full bg-white shadow-md z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center py-4">
+            <div class="text-2xl font-semibold text-blue-600">
+                <a href="#home" class="hover:text-blue-800">Mon Portfolio</a>
+            </div>
+            <div class="space-x-6">
+                <a href="#home" class="text-lg text-blue-600 hover:bg-blue-600 hover:text-white px-4 py-2 rounded-full transition duration-300">Accueil</a>
+                <a href="#quissuisje" class="text-lg text-blue-600 hover:bg-blue-600 hover:text-white px-4 py-2 rounded-full transition duration-300">Qui suis-je</a>
+                <a href="#competences" class="text-lg text-blue-600 hover:bg-blue-600 hover:text-white px-4 py-2 rounded-full transition duration-300">Compétences</a>
+                <a href="#projets" class="text-lg text-blue-600 hover:bg-blue-600 hover:text-white px-4 py-2 rounded-full transition duration-300">Projets</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+    <!-- Section d'Introduction -->
+    <section id="home" class="h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-teal-400 text-white text-center">
+        <div>
+            <h1 class="text-4xl font-semibold mb-4">Bienvenue sur mon Portfolio</h1>
+            <p class="text-lg mb-8">Je suis Théo LAGUE, étudiant en informatique passionné par le développement.</p>
+        <!-- Bouton pour télécharger le CV -->
+        <a href="CV/LAGUE_Theo_CV.pdf" download="CV_LAGUE_Theo" class="text-blue-600 hover:bg-blue-600 hover:text-white bg-white border-2 border-blue-600 px-6 py-2 rounded-full shadow-lg transition duration-300">
+            Télécharger mon CV
+        </a>
+        </div>
+    </section>
+
+    <!-- Section Qui suis-je -->
+    <section id="quissuisje" class="flex flex-col items-center py-16 bg-white">
+        <div class="flex items-center space-x-12 mb-8">
+            <img src="images/photo.jpg" alt="Théo LAGUE" class="w-64 h-64 rounded-full shadow-lg">
+            <div class="max-w-2xl">
+                <h2 class="text-3xl font-semibold text-blue-500">Qui suis-je ?</h2>
+                <p class="text-lg text-gray-700 mt-4">Agé de 19 ans, je suis titulaire d'un bac général spécialité maths et NSI avec option maths experts. Depuis mon plus jeune âge, je suis passionné d'informatique et de digital. Mes jobs d’été, 2 ans consécutivement au centre de loisirs d’Ustaritz, m’ont permis d’avoir une belle expérience dans le milieu des enfants. Passionné de sport, j’ai joué au tennis en club pendant une dizaine d’années et au foot pendant 5 ans.</p>
+                <p class="text-lg text-gray-700 mt-4">Je suis actuellement en 2ème année de BUT Informatique à Anglet, où je développe mes compétences en programmation. Mon objectif est de contribuer au développement d'applications web et de travailler sur des projets innovants.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="py-16 bg-blue-100">
+        <h2 class="text-3xl font-semibold text-center text-blue-600 mb-6">Mes Compétences</h2>
+        <div class="grid grid-cols-3 gap-8 px-12">
+            <div class="p-6 bg-white shadow-md rounded-lg hover:scale-105 transition duration-300">
+                <h3 class="text-xl font-semibold text-blue-500">C++</h3>
+                <p class="text-gray-700 mt-2">Je maîtrise C++ pour le développement de projets de programmation complexe.</p>
+                <div class="mt-2 p-4 bg-blue-200 text-gray-700 text-sm rounded-lg">
+                    Le C++ est un langage de programmation de haut niveau permettant de créer des applications logicielles, des jeux vidéo, et des systèmes embarqués.
+                </div>
+            </div>
+            <div class="p-6 bg-white shadow-md rounded-lg hover:scale-105 transition duration-300">
+                <h3 class="text-xl font-semibold text-blue-500">CSS & HTML</h3>
+                <p class="text-gray-700 mt-2">Je suis capable de concevoir des sites web responsives et bien structurés avec HTML et CSS.</p>
+                <div class="mt-2 p-4 bg-blue-200 text-gray-700 text-sm rounded-lg">
+                    HTML est le langage de base pour structurer le contenu web, tandis que CSS est utilisé pour personnaliser l'apparence visuelle des pages web.
+                </div>
+            </div>
+            <div class="p-6 bg-white shadow-md rounded-lg hover:scale-105 transition duration-300">
+                <h3 class="text-xl font-semibold text-blue-500">JavaScript</h3>
+                <p class="text-gray-700 mt-2">Avec JavaScript, je crée des interactions dynamiques et des applications web fluides.</p>
+                <div class="mt-2 p-4 bg-blue-200 text-gray-700 text-sm rounded-lg">
+                    JavaScript est un langage de programmation utilisé principalement pour ajouter des fonctionnalités interactives aux pages web, comme des formulaires et des animations.
+                </div>
+            </div>
+            <div class="p-6 bg-white shadow-md rounded-lg hover:scale-105 transition duration-300">
+                <h3 class="text-xl font-semibold text-blue-500">Python</h3>
+                <p class="text-gray-700 mt-2">Python est un langage polyvalent que j’utilise pour automatiser des tâches, développer des applications ou analyser des données.</p>
+                <div class="mt-2 p-4 bg-blue-200 text-gray-700 text-sm rounded-lg">
+                    Python est un langage interprété, populaire pour sa simplicité et son efficacité dans des domaines variés comme le web, l'IA et l'analyse de données.
+                </div>
+            </div>
+            <div class="p-6 bg-white shadow-md rounded-lg hover:scale-105 transition duration-300">
+                <h3 class="text-xl font-semibold text-blue-500">PHP</h3>
+                <p class="text-gray-700 mt-2">Le PHP est utilisé pour créer des sites web dynamiques et des applications web côté serveur.</p>
+                <div class="mt-2 p-4 bg-blue-200 text-gray-700 text-sm rounded-lg">
+                    PHP est un langage de script côté serveur utilisé pour générer du contenu dynamique et interagir avec des bases de données.
+                </div>
+            </div>
+            <div class="p-6 bg-white shadow-md rounded-lg hover:scale-105 transition duration-300">
+                <h3 class="text-xl font-semibold text-blue-500">SQL</h3>
+                <p class="text-gray-700 mt-2">Je maîtrise SQL pour interroger et manipuler des bases de données relationnelles.</p>
+                <div class="mt-2 p-4 bg-blue-200 text-gray-700 text-sm rounded-lg">
+                    SQL est un langage de gestion des bases de données relationnelles permettant de manipuler les données avec des requêtes SELECT, INSERT, UPDATE, DELETE, et plus.
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- Section Projets -->
+<section id="projets" class="py-16 bg-white">
+    <h2 class="text-3xl font-semibold text-center text-blue-600 mb-6">Mes Projets</h2>
+    <div class="text-center">
+        <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-blue-50 p-6 rounded-lg shadow-lg hover:scale-105 transition duration-300">
+                <h3 class="text-xl font-semibold text-blue-600">La Nuit de l'Info 2024</h3>
+                <p class="text-gray-700 mt-4">Un événement annuel où des équipes créent des applications en une nuit. En 2024, nous avons développé une application de gestion d'événements...</p>
+            </div>
+            <div class="bg-blue-50 p-6 rounded-lg shadow-lg hover:scale-105 transition duration-300">
+                <h3 class="text-xl font-semibold text-blue-600">Projet GureKultura</h3>
+                <p class="text-gray-700 mt-4">Un projet de création d'une plateforme pour répertorier les événements du Pays Basque. <a href="https://github.com/LAGUETheo/Projet_GureKultura" class="text-blue-600 hover:text-blue-800">Voir le projet</a></p>
+            </div>
+        </div>
+    </div>
+
+<!-- Footer -->
+<footer class="bg-blue-600 text-white py-8">
+    <div class="container mx-auto text-center">
+        <p class="text-lg">Contactez-moi :</p>
+        <div class="mt-4">
+            <a href="laguetheo64@gmail.com" class="text-white hover:text-blue-300 transition duration-300">laguetheo64@gmail.com</a>
+        </div>
+        <div class="mt-2">
+            <a href="https://github.com/LAGUETheo" class="text-white hover:text-blue-300 transition duration-300">GitHub</a> |
+            <a href="https://www.linkedin.com/in/th%C3%A9o-lag%C3%BCe-500503268/?originalSubdomain=fr" class="text-white hover:text-blue-300 transition duration-300">LinkedIn</a>
+        </div>
+        <p class="mt-4 text-sm">© 2024 Théo LAGUE. Tous droits réservés.</p>
+    </div>
+</footer>
+
+</section>
+
+
